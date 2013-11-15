@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
     </dependencies>
     <scenes>
-        <!--Navigation Controller - First-->
+        <!--First View Controller - First-->
         <scene sceneID="l9f-vL-zNf">
             <objects>
-                <navigationController definesPresentationContext="YES" id="BuT-xR-1Oz" sceneMemberID="viewController">
+                <navigationController definesPresentationContext="YES" id="BuT-xR-1Oz" customClass="FirstViewController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="First" image="first" id="74u-wu-Vyc"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="wWm-AL-lw8">
                         <autoresizingMask key="autoresizingMask"/>
@@ -20,10 +20,10 @@
             </objects>
             <point key="canvasLocation" x="621" y="-215"/>
         </scene>
-        <!--First View Controller-->
+        <!--Table View Controller-->
         <scene sceneID="dEE-rr-ASE">
             <objects>
-                <tableViewController id="EAZ-F9-qjS" customClass="FirstViewController" sceneMemberID="viewController">
+                <tableViewController id="EAZ-F9-qjS" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="LeS-JH-pfh">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
